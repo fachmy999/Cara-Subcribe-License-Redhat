@@ -24,7 +24,7 @@ subscription-manager register
 - Menampilkan Subscriptions yang tersedia (Available Subscriptions) dengan menjalankan perintah : 
 
 ```
-subscription-manager list –available
+subscription-manager list –-available
 ```
 
 - Gunakan Pool ID yang muncul pada Available Subscriptions untuk melakukan pendaftaran. Jalankan Perintah : 
