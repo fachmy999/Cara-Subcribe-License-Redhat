@@ -24,13 +24,13 @@ subscription-manager register
 - Menampilkan Subscriptions yang tersedia (Available Subscriptions) dengan menjalankan perintah : 
 
 ```
-subscription-manager list –-available
+subscription-manager list --available
 ```
 
 - Gunakan Pool ID yang muncul pada Available Subscriptions untuk melakukan pendaftaran. Jalankan Perintah : 
 
 ```
-subscription-manager subscribe --pool=xxxxxxxxxxx
+subscription-manager attach --pool=xxxxxxxxxxx
 ```
 
 - Tampilkan kembali status subscription, untuk melihat apakah apakah RHEL Subscription sudah aktif atau belum. Untuk melihatnya jalankan perintah :
